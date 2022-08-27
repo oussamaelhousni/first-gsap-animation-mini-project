@@ -17,6 +17,12 @@ html {
     box-sizing: border-box;
 }
 
+@media screen and (max-width:500px){
+ html{
+font-size:50%;
+}
+}
+
 body {
     font-size: 1.5rem;
     line-height: 1.5;
@@ -40,7 +46,8 @@ body {
     display: flex;
     align-items: center;
     padding: 3rem 2rem;
-    width: 50rem;
+margin:2rem;
+    max-width: 50rem;
     border-radius: 2rem;
     gap: 5rem;
     color: #fff;
