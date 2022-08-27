@@ -17,7 +17,7 @@ tl.fromTo(
 
 tl.fromTo(
     ".cookie__img",
-    { y: -50, rotate: "-45deg", opacity: 0 },
+    { y: -50, rotate: "-25deg", opacity: 0 },
     { y: 0, opacity: 1, rotate: "0deg", duration: 0.75 },
     "<50%"
 );
@@ -27,4 +27,10 @@ tl.fromTo(
     { y: -150, opacity: 0 },
     { y: 0, opacity: 1 },
     "<70%"
+);
+
+tl.fromTo(
+    ".cookie__img",
+    { y: 0, rotate: "0deg" },
+    { y: -20, rotate: "-25deg", yoyo: true, repeat: -1, duration: 0.75 }
 );
